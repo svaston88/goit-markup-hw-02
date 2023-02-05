@@ -46,8 +46,15 @@ ul {
     text-decoration: none;
 }
 
-.header-section:active,
-:hover {
+.header-section:hover {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-ocean)
+}
+
+.header-section:focus {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -65,8 +72,16 @@ ul {
     color: var(--color-secondary)
 }
 
-.header-contacts:active,
-:hover {
+.header-contacts:hover {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--color-ocean)
+}
+
+.header-contacts:focus {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
