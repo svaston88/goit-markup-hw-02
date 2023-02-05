@@ -1,0 +1,39 @@
+:root {
+    --color-primary: #2E2F42;
+    --color-secondary: #434455;
+    --color-light: #E7E9FC;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-decoration: none;
+}
+
+.header-section {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.header-contacts {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+.hero-title {
+    
+}
