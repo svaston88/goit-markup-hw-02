@@ -2,12 +2,33 @@
     --color-primary: #2E2F42;
     --color-secondary: #434455;
     --color-light: #E7E9FC;
+    --color-ocean: #404BBF;
+    --color-iris: #4D5AE5;
+    --color-background-ocean: #F4F4FD;
+}
+
+/* Видалити потім */
+.hero-background-title {
+    background-color: #2E2F42;
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-primary);
 }
 
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Оформлення Header */
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
@@ -25,15 +46,123 @@ body {
     text-decoration: none;
 }
 
+.header-section:active,
+:hover {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-ocean)
+}
+
 .header-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--color-secondary)
+}
+
+.header-contacts:active,
+:hover {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: var(--color-ocean)
+}
+
+/* Оформлення Hero */
+.hero-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #ffffff;
+}
+
+.button-hero {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: var(--color-iris);
+    cursor: pointer;
+}
+
+/* Оформлення Main points */
+.main-points-h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-primary);
+}
+
+.main-points-p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-secondary)
+}
+
+/* ____________________________________
+Оформлення Our team */
+.our-team-section {
+    background-color: var(--color-background-ocean);
+}
+
+/* Оформлення підвалу */
+.footer-bgc {
+    background-color: var(--color-primary);
+}
+
+.footer-text {
+    color: var(--color-light);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Оформлення сторінки Portfolio */
+.buttons-portfolio {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-iris);
+    background-color: var(--color-light);
+    cursor: pointer;
+}
+
+.button-current {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: var(--color-ocean);
+}
+
+/* Оформлення Main products */
+.main-products-h3 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-primary);
+}
+
+.main-products-p {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-secondary);
-    text-decoration: none;
-}
-
-.hero-title {
-    
 }
