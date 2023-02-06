@@ -5,6 +5,7 @@
     --color-ocean: #404BBF;
     --color-iris: #4D5AE5;
     --color-background-ocean: #F4F4FD;
+    --total-white: #ffffff;
 }
 
 /* Видалити потім */
@@ -17,24 +18,43 @@ body {
     color: var(--color-primary);
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-}
-
 ul {
     list-style: none;
 }
 
 /* Оформлення Header */
+.logo-blue {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--color-iris);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .logo {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--color-primary);
     text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--color-background-ocean);
+    text-decoration: none;
+    text-transform: uppercase;
+
 }
 
 .header-section {
@@ -42,23 +62,17 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-primary);
     text-decoration: none;
 }
 
-.header-section:hover {
+.header-section:hover, .header-section:focus {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: var(--color-ocean)
-}
-
-.header-section:focus {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-ocean)
 }
 
@@ -68,35 +82,27 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--color-secondary)
 }
 
-.header-contacts:hover {
+.header-contacts:hover, .header-contacts:focus {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
-    color: var(--color-ocean)
-}
-
-.header-contacts:focus {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--color-ocean)
 }
 
 /* Оформлення Hero */
 .hero-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: #ffffff;
+    color: var(--total-white)
 }
 
 .button-hero {
@@ -104,32 +110,78 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #ffffff;
+    letter-spacing: 0.04em;
+    color: var(--total-white);
     background-color: var(--color-iris);
+    cursor: pointer;
+}
+
+.button-hero:hover, .button-hero:focus {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--total-white);
+    background-color: var(--color-ocean);
     cursor: pointer;
 }
 
 /* Оформлення Main points */
 .main-points-h3 {
-    font-family: 'Roboto';
+    font-style: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--color-primary);
 }
 
 .main-points-p {
-    font-family: 'Roboto';
+    font-style: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--color-secondary)
+}
+
+.h2-what-are-we-doing {
+    font-size: 36px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
 }
 
 /* ____________________________________
 Оформлення Our team */
 .our-team-section {
     background-color: var(--color-background-ocean);
+}
+
+.our-team-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
+}
+
+.our-team-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-secondary)
 }
 
 /* Оформлення підвалу */
@@ -143,41 +195,42 @@ ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 /* Оформлення сторінки Portfolio */
 .buttons-portfolio {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-iris);
     background-color: var(--color-light);
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
-.button-current {
-    font-family: 'Roboto';
+.buttons-portfolio:hover, .buttons-portfolio:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #ffffff;
+    color: var(--total-white);
     background-color: var(--color-ocean);
+    letter-spacing: 0.04em;
 }
 
 /* Оформлення Main products */
 .main-products-h3 {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-primary);
+    letter-spacing: 0.02em;
 }
 
 .main-products-p {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-secondary);
+    letter-spacing: 0.02em;
 }
