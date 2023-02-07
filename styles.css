@@ -24,14 +24,7 @@ ul {
 
 /* Оформлення Header */
 .logo-blue {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
     color: var(--color-iris);
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 .logo {
@@ -46,19 +39,10 @@ ul {
 }
 
 .logo-footer {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
     color: var(--color-background-ocean);
-    text-decoration: none;
-    text-transform: uppercase;
-
 }
 
 .header-section {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -68,7 +52,6 @@ ul {
 }
 
 .header-section:hover, .header-section:focus {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -77,9 +60,7 @@ ul {
 }
 
 .header-contacts {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -87,9 +68,7 @@ ul {
     color: var(--color-secondary)
 }
 
-.header-contacts:hover, .header-contacts:focus {
-    font-family: 'Roboto';
-    font-weight: 400;
+.header-contacts:hover, .header-contacts:focus { 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -99,14 +78,15 @@ ul {
 
 /* Оформлення Hero */
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: var(--total-white)
+    color: var(--total-white);
+    letter-spacing: 0.02em;
 }
 
 .button-hero {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -129,7 +109,6 @@ ul {
 
 /* Оформлення Main points */
 .main-points-h3 {
-    font-style: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -138,8 +117,6 @@ ul {
 }
 
 .main-points-p {
-    font-style: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -148,7 +125,6 @@ ul {
 
 .h2-what-are-we-doing {
     font-size: 36px;
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -161,7 +137,6 @@ ul {
 }
 
 .our-team-heading {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     letter-spacing: 0.02em;
@@ -177,7 +152,6 @@ ul {
 }
 
 .our-team-job {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -191,8 +165,6 @@ ul {
 
 .footer-text {
     color: var(--color-light);
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -200,6 +172,7 @@ ul {
 
 /* Оформлення сторінки Portfolio */
 .buttons-portfolio {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -210,6 +183,7 @@ ul {
 }
 
 .buttons-portfolio:hover, .buttons-portfolio:focus {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
